@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
 
@@ -11,8 +10,7 @@ function App() {
     const [sleepTimes, setSleepTimes] = useState(0)
     const [extraSleepTimes, setExtraSleepTimes] = useState(0);
     const [wakingNightTimes, setWakingNightTimes] = useState(0);
-    const [regularPay, setRegularPay] = useState('');
-  
+
      const calculateWage = (event) => {
       event.preventDefault();
       const userPrompts = {
